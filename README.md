@@ -1,38 +1,39 @@
-# 🗺️ Web GIS Lahan Pertanian (Laravel + Leaflet.js)
+# 🗺️ Web GIS Pemetaan Lahan Pertanian (Laravel + Leaflet)
 
-Aplikasi Sistem Informasi Geografis (GIS) berbasis web untuk pemetaan, pengelolaan, dan visualisasi data pemetaan lahan pertanian secara interaktif.
+Sistem Informasi Geografis (GIS) berbasis web yang dirancang untuk pemetaan, pengolahan, dan visualisasi data lokasi serta atribut lahan pertanian secara interaktif.
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white)
 ![GeoJSON](https://img.shields.io/badge/GeoJSON-000000?style=for-the-badge&logo=geojson&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ---
 
 ## 🌟 Fitur Utama
 
-- **Pemetaan Interaktif:** Peta wilayah lahan menggunakan **Leaflet.js** dengan dukungan layer kustom.
-- **Dukungan GeoJSON:** Fitur *upload* dan *render* data spasial berkategori (*polygon/point*) lokasi lahan.
-- **Filter Data Lahan:** Memfilter dan menampilkan lahan berdasarkan area/kategori tertentu secara *real-time*.
-- **Manajemen Data Lahan (CRUD):** Tambah, ubah, dan hapus data atribut serta koordinat/geometri lahan.
-- **Detail Informasi:** Menampilkan popup informasi pemilik, luas lahan, jenis komoditas, dan status lahan saat polygon diklik.
+- **Peta Interaktif:** Visualisasi data spasial wilayah lahan pertanian menggunakan **Leaflet.js**.
+- **Pengolahan Data GeoJSON:** Mendukung pembacaan dan pemetaan data spasial berbasis format **GeoJSON**.
+- **Filter Area & Lokasi:** Memudahkan pencarian dan penyaringan lahan pertanian berdasarkan kategori/wilayah.
+- **Manajemen Data Lahan (CRUD):** Pengelolaan data detail pemilik lahan, komoditas, luas area, hingga titik koordinat/geometri.
+- **Popup Informasi Detail:** Informasi lengkap lahan langsung muncul saat area/polygon peta diklik.
 
 ---
 
 ## 🛠️ Teknologi yang Digunakan
 
-- **Backend:** PHP / Laravel Framework
+- **Backend Framework:** Laravel (PHP)
 - **Frontend & Mapping:** HTML5, CSS3, JavaScript, Leaflet.js, Bootstrap
 - **Database:** MySQL
-- **Data Spasial:** Format GeoJSON
+- **Spatial Data:** Format GeoJSON
 
 ---
 
-## 🚀 Cara Instalasi & Menjalankan Project
+## 🚀 Cara Menginstal & Menjalankan Project
 
-Ikuti langkah-langkah berikut untuk menjalankan project ini di komputer lokal kamu:
+Ikuti langkah-langkah di bawah ini untuk menguji atau menjalankan project di lingkungan lokal:
 
 ### 1. Clone Repository
 ```bash
-git clone [https://github.com/username-kamu/nama-repo-kamu.git](https://github.com/username-kamu/nama-repo-kamu.git)
-cd nama-repo-kamu
+git clone [https://github.com/aleksiushasibuan/github-gis-lahan-pertanian-.git](https://github.com/aleksiushasibuan/github-gis-lahan-pertanian-.git)
+cd github-gis-lahan-pertanian-
