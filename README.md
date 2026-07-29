@@ -14,7 +14,7 @@ Sistem Informasi Geografis (GIS) berbasis web yang dirancang untuk pemetaan, pen
 
 - **Peta Interaktif:** Visualisasi data spasial wilayah lahan pertanian menggunakan **Leaflet.js**.
 - **Pengolahan Data GeoJSON:** Mendukung pembacaan dan pemetaan data spasial berbasis format **GeoJSON**.
-- **Manajemen Data Lahan (CRUD)
+- **Manajemen Data Lahan (CRUD)**
 - **Popup Informasi Detail:** Informasi lengkap lahan langsung muncul saat area/polygon peta diklik.
 
 ---
